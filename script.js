@@ -205,7 +205,7 @@ function renderDetail(bird) {
 
   requestAnimationFrame(() => {
     document.querySelector("#detail-name")?.focus({ preventScroll: true });
-    window.scrollTo({ top: 0, behavior: "auto" });
+    // window.scrollTo({ top: 0, behavior: "auto" });
   });
 }
 
@@ -223,7 +223,7 @@ function closeDetail() {
 
   requestAnimationFrame(() => {
     lastSelectedButton?.focus({ preventScroll: true });
-    window.scrollTo({ top: 0, behavior: "auto" });
+    window.({ top: 0, behavior: "auto" });
   });
 }
 
