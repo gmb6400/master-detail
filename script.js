@@ -1,7 +1,6 @@
 const CSV_PATH = "https://gmb6400.github.io/master-detail/iowa-warblers.csv";
 const BIRD_THUMBNAIL_EXTENSION = ".jpg";
 const FOOD_IMAGE_EXTENSION = ".jpg";
-
 const gridView = document.querySelector("#grid-view");
 const grid = document.querySelector("#warbler-grid");
 const detailView = document.querySelector("#detail-view");
